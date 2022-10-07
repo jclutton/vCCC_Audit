@@ -1,0 +1,24 @@
+Package: vCCCAudit
+Title: vCCC T-cog and Visit Tracker Monitoring
+Version: 0.0.1
+Authors@R: 
+    person(given = "Jon",
+           family = "Clutton",
+           role = c("aut", "cre"),
+           email = "jclutton@kumc.edu",
+Description: This package integrates with the REDCap vCCC Monitoring project to send weekly and bi-weekly emails to vCCC raters about any cognitive tests or visits that need correction
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Collate: 
+    'master_script.R'
+    'load_data.R'
+    'send_emails.R'
+    'send_monitor_email.R'
+Instructions: 
+    1) Download the vCCC Monitoring Redcap database 
+    2) Save and replace the REDCap download under vCCCAudit/data/redcap
+    3) Source master_script.R. 
+    See 'master_script' documentation for more details. 
